@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="output.css" />
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <header class="px-4 bg-[#ededed]">
+      <nav class="flex flex-row justify-between items-center">
+        <div>
+          <h1 class="font-mono text-[22px] font-bold">Portfolio</h1>
+        </div>
+        <div>
+          <ul class="flex flex-row py-3">
+            <li
+              class="px-5 hover:bg-black hover:text-white transition ease-out 1s"
+            >
+              <a href="#about">About</a>
+            </li>
+            <li
+              class="px-5 hover:bg-black hover:text-white transition ease-out 1s"
+            >
+              <a href="#project">Project</a>
+            </li>
+            <li
+              class="px-5 hover:bg-black hover:text-white transition ease-out 1s"
+            >
+              <a href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <!-- Hero banner section -->
+    <section
+      class="h-[420px] bg-[url('/img/herobanner.jpg')] bg-cover bg-no-repeat relative flex flex-col justify-center items-start p-8"
+    >
+      <div class="mb-4 ml-6">
+        <h1 class="text-black text-[48px] font-mono">Hello, Welcome</h1>
+      </div>
+      <div
+        class="font-mono ml-6 px-3 py-4 bg-indigo-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-10 border border-gray-100"
+      >
+        <p class="text-[14px]">
+          I'm a passionate aspirant web developer with a drive for creating
+          engaging and user-centric web experiences. I’ve honed my skills in
+          developing visually appealing, and high-performing websites.
+        </p>
+      </div>
+    </section>
+    <!-- about section -->
+    <section
+      id="about"
+      class="h-[500px] w-full p-8 bg-[#141414] overflow-hidden relative flex flex-col justify-center items-center"
+    >
+      <h1 class="ml-6 text-white text-[48px] font-mono text-center">About</h1>
+      <br />
+      <br />
+      <div class="flex flex-row justify-between max-w-[1000px]">
+        <div class="p-4 flex items-center">
+          <ul class="text-white font-mono">
+            <li>Name: Michael Angelo D. Bayangos</li>
+            <li>Age: 22 Years of Age</li>
+            <li>Education: Bachelor of Science in Information Technology</li>
+            <li>
+              Skills: Flutter HTML CSS Tailwind Basic Javascript Web design
+              (Figma and Canva) Firebase.
+            </li>
+          </ul>
+        </div>
+        <div>
+          <img class="" src="/img/imgme.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- Project section -->
+    <section id="project" class="h-auto w-full p-8 bg-[#ededed]">
+      <h1 class="text-black text-[48px] font-mono py-3 text-center">
+        Projects
+      </h1>
+      <br />
+      <div class="flex flex-col items-centerspace-y-8">
+        <div
+          class="project-card bg-white border border-gray-200 rounded-lg shadow-lg hover:shadow-2xl md:flex md:max-w-xl w-full flex flex-col justify-center items-center p-8"
+        >
+          <div class="flex-shrink-0 py-4">
+            <img src="/img/stoptouch.png" alt="Stop Touch" />
+          </div>
+          <div class="flex-shrink-0">
+            <iframe
+              width="540"
+              height="315"
+              src="https://www.youtube.com/embed/-JxLaYnasuM?si=UqMuepqzb1pSIWGL"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div class="flex flex-col items-center">
+            <div class="flex flex-col justify-between p-8">
+              <h5
+                class="mb-2 text-2xl font-bold tracking-tight text-gray-900 text-center"
+              >
+                Stop Touch Mobile Time Limiter:
+              </h5>
+              <p class="mb-3 font-normal text-gray-700">
+                Stop touch mobile time limiter is a parental control mobile
+                application which can limit the usage of the children's device.
+                You can check more details on my <strong>Github</strong> link:
+                <a
+                  class="text-blue-500 hover:underline"
+                  target="_blank"
+                  href="https://github.com/MichaelBayangos/stoptouch"
+                  >Click Here</a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+        <br />
+        <div
+          class="project-card bg-white border border-gray-200 rounded-lg shadow-lg hover:shadow-2xl md:flex md:max-w-xl w-full flex flex-col justify-center items-center p-8"
+        >
+          <div class="flex-shrink-0">
+            <img src="/img/2048.png" alt="2048 Game" />
+          </div>
+          <div class="flex flex-col justify-between p-8">
+            <h5
+              class="mb-2 text-2xl font-bold tracking-tight text-gray-900 text-center"
+            >
+              Web Game Development App:
+            </h5>
+            <p class="mb-3 font-normal text-gray-700">
+              This is a web game I built while participating in the free Web
+              Game Development hosted by ZUITT. You can check the game using the
+              link:
+              <a
+                class="text-blue-500 hover:underline"
+                target="_blank"
+                href="https://michaelbayangos.github.io/js-fcbPortfolioBayangos/"
+                >Click Here</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
